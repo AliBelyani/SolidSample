@@ -1,0 +1,6 @@
+C:\Education\Project\C#\Solid\SolidSample\SolidSample\bin\Debug\SolidSample.exe.config
+C:\Education\Project\C#\Solid\SolidSample\SolidSample\bin\Debug\SolidSample.exe
+C:\Education\Project\C#\Solid\SolidSample\SolidSample\bin\Debug\SolidSample.pdb
+C:\Education\Project\C#\Solid\SolidSample\SolidSample\obj\Debug\SolidSample.csprojAssemblyReference.cache
+C:\Education\Project\C#\Solid\SolidSample\SolidSample\obj\Debug\SolidSample.exe
+C:\Education\Project\C#\Solid\SolidSample\SolidSample\obj\Debug\SolidSample.pdb
