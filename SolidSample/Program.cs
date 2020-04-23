@@ -1,6 +1,8 @@
 ﻿using SolidSample.AbstractSample;
+using SolidSample.OCP;
 using SolidSample.VirtualSample;
 using System;
+using System.Collections.Generic;
 
 namespace SolidSample
 {
@@ -20,20 +22,35 @@ namespace SolidSample
         #endregion
 
         #region Virtual Methods
+        //static void Main(string[] args)
+        //{
+        //    User user = new User();
+        //    user.ShowRole();
+
+        //    user = new GoldUser();
+        //    user.ShowRole();
+
+        //    SilverUser silverUser = new SilverUser();
+        //    silverUser.ShowRole();
+
+        //    user = new BronzeUser();
+        //    user.ShowRole();
+
+        //    Console.Read();
+        //}
+        #endregion
+
+        #region OCP
         static void Main(string[] args)
         {
-            User user = new User();
-            user.ShowRole();
+            Rectangle rectangle = new Rectangle(2, 4);
+            Circle circle = new Circle(3);
 
-            user = new GoldUser();
-            user.ShowRole();
+            AreaCalculator areaCalculator = new AreaCalculator();
+            var shapes = new List<Shape> { rectangle, circle };
 
-            SilverUser silverUser = new SilverUser();
-            silverUser.ShowRole();
-
-            user = new BronzeUser();
-            user.ShowRole();
-
+            double area = areaCalculator.Area(shapes);
+            Console.WriteLine(area);
             Console.Read();
         }
         #endregion

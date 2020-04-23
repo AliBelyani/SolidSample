@@ -44,6 +44,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AbstractSample\Person.cs" />
+    <Compile Include="OCP\FirstExample\AreaCalculator.cs" />
+    <Compile Include="OCP\FirstExample\Circle.cs" />
+    <Compile Include="OCP\FirstExample\Rectangle.cs" />
+    <Compile Include="OCP\FirstExample\Shape.cs" />
+    <Compile Include="OCP\FirstExample\Square.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="VirtualSample\User.cs" />
@@ -51,6 +56,8 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="OCP\SecondExample\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
