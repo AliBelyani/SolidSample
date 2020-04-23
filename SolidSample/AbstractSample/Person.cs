@@ -5,13 +5,10 @@ namespace SolidSample.AbstractSample
     public abstract class Person
     {
         public abstract void ShowInfo();
-    }
 
-    public class Teacher : Person
-    {
-        public override void ShowInfo()
+        public void ShowName()
         {
-            Console.WriteLine("This is Teacher");
+            Console.WriteLine("My Name Is Ali");
         }
     }
 
@@ -20,6 +17,14 @@ namespace SolidSample.AbstractSample
         public override void ShowInfo()
         {
             Console.WriteLine("This is Student");
+        }
+    }
+
+    public class Teacher : Person
+    {
+        public override void ShowInfo()
+        {
+            Console.WriteLine("This is Teacher");
         }
     }
 }
